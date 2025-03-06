@@ -1,0 +1,9 @@
+flask>=2.0.0
+requests>=2.25.0
+click>=8.1.7
+werkzeug>=2.3.7
+tenacity>=8.2.3
+fake-useragent>=1.4.0
+python-dotenv>=0.19.0
+waitress>=2.1.2; platform_system=="Windows"
+gunicorn>=20.1.0; platform_system=="Linux" or platform_system=="Darwin" 
